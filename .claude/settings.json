@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
+  },
+  "autoMemoryEnabled": false
+}
