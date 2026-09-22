@@ -1,4 +1,6 @@
-Always reply in the same language I write in. When replying in English, always use British English.
+## Language
+
+Reply in the language I write in; in English, use British English. Anything that outlives the session (files, commit messages) follows the project's existing language and spelling; where there's no convention, apply the same rule.
 
 ## Write the outcome, not the conversation
 
