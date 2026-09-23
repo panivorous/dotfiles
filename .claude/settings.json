@@ -3,5 +3,9 @@
     "gopls-lsp@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true
   },
-  "autoMemoryEnabled": false
+  "autoMemoryEnabled": false,
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
+    "CLAUDE_CODE_DISABLE_EXPLORE_PLAN_AGENTS": "1"
+  }
 }
