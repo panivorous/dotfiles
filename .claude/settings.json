@@ -1,12 +1,14 @@
 {
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
+    "CLAUDE_CODE_DISABLE_EXPLORE_PLAN_AGENTS": "1",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true
   },
   "autoMemoryEnabled": false,
-  "env": {
-    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
-    "CLAUDE_CODE_DISABLE_EXPLORE_PLAN_AGENTS": "1",
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
-  }
+  "agentPushNotifEnabled": true,
+  "inputNeededNotifEnabled": true
 }
